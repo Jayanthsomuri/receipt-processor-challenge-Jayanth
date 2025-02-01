@@ -21,10 +21,11 @@ cd receipt-processor-challenge-Jayanth
 2. Install Dependencies
 If you're not using Docker, you can install the dependencies using the following Go command:
 ```
-bash
+```bash
 Copy
 Edit
 go mod tidy
+```
 This will download and install the necessary dependencies (github.com/google/uuid, github.com/gorilla/mux).
 
 3. Run the Application
@@ -33,10 +34,11 @@ You can run the application in two ways:
 Option 1: Using Go Directly
 To run the application directly using Go:
 
-bash
+```bash
 Copy
 Edit
 go run main.go
+```
 This will start the server on http://localhost:8080.
 
 Option 2: Using Docker (Optional)
@@ -142,9 +144,4 @@ markdown
 Copy
 Edit
 
-### Key Improvements:
-- **Code formatting**: The instructions are clearer with appropriate code blocks for commands and examples.
-- **Clarity**: Clean and structured formatting for commands and examples.
-- **Simplified text**: Improved readability for Docker setup and API request/response examples.
 
-Feel free to copy and paste it into your `README.md` file in your GitHub repo! Let me know 
