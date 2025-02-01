@@ -66,3 +66,10 @@ Response Example:
 }
 
 ```
+Docker Setup (Optional)
+If you're using Docker, the following command will build and run the application inside a Docker container:
+```bash
+docker build -t receipt-processor .
+docker run -p 8080:8080 receipt-processor
+```
+This project is open-source and available under the MIT License.
